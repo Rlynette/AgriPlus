@@ -277,7 +277,7 @@ justify-content: space-between;
     padding: 20px;
     display: flex;
     text-decoration: none;
-    bottom: 100px;
+    /* bottom: 100px; */
 }
 
 .footer .details{
