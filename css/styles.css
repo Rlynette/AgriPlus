@@ -217,9 +217,7 @@ grid-gap: 30px;
 align-items: center;
 }
 
-.mostpopular .pop .imgs{
-    margin-right: auto;
-    margin-left: auto;
+    /* display: flex; */
 }
 
 .contacts{
