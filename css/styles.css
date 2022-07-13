@@ -27,10 +27,16 @@
     color: #fafafa;
     /* text-align: center; */
     justify-content: space-between;
-    padding: 100px;
+    padding: 50px;
     font-size: 17px;
     text-decoration: none;
     display: flex;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
 }
 
 .nav .login{
@@ -42,7 +48,6 @@
 #start{
     background-color:#ed661f;
     color: #fafafa;
-    padding: 10px ;
     /* border-radius: 5x; */
     border: none;
 }
@@ -197,6 +202,7 @@ display: grid;
     justify-content: flex-end;
     flex: right;
     right: 0;
+   
     
 }
 .feedback{
