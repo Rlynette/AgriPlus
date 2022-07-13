@@ -6,47 +6,45 @@
 
 .nav{
     background-color: black;
-    height: 70px;
+    /* height: 70px; */
     align-items: center;
-    justify-content: center;
-    padding: 20px 20px 20px 20px;
+    justify-content:space-between;
+    padding: 50px;
     /* white-space: nowrap; */
     display:flex;
 }
-.navbar{
-    dbackground-color: black;
-    height: 100px;
+.tag{
+    /* background-color: black; */
+    /* height: 100px; */
+    color: #fafafa;
     align-items: center;
     justify-content: center;
-    padding: 50px 100px 50px 100px;
+    padding: 20px;
     display: flex;
 }
 
-.navbar a{
+.nav a{
     color: #fafafa;
-    text-align: center;
-    justify-content: center;
-    padding: 14px 16px;
+    /* text-align: center; */
+    justify-content: space-between;
+    padding: 100px;
     font-size: 17px;
     text-decoration: none;
     display: flex;
 }
 
-.navbar h1{
-    /* background-color:#ed661f; */
-    flex: 1;
-    color: white; 
-}
-
-.nav.btn{
+.nav .login{
     flex: 1 ;
-    justify-content: center;
+    display: flex;
+    float: right;
+    right: 0;
 }
 #start{
     background-color:#ed661f;
     color: #fafafa;
-    padding: 5px 7px 5px 7px ;
-    border-radius: 5x;
+    padding: 10px ;
+    /* border-radius: 5x; */
+    border: none;
 }
 .nav a:hover{
 background-color: blue;
@@ -77,53 +75,33 @@ color: black;
 }
 
 .bottom-left{
-    width: 30%;
-    height: fit-content;
+    width: 50%;
+    /* height: fit-content; */
     position: absolute;
     bottom: 600px;
     left:0px;
-    float: inline-end;
-    padding: 40px 20px 2px 20px ;
+    /* float: inline-end; */
+    padding: 20px ;
+    flex: 2;
     /* display:block;
     align-items: left;
     justify-content: left;
     float: inline-end; */
 }
+.bottom-left h1{
+    padding: 20px;
+}
 
-/* .img1{
-    width: 100%;
-    height: 100%;
-    background-attachment: fixed;
-    background-position: bottom;
-} */
-
-/* .details h1{ 
-    flex: 1;
-    position: absolute;
-    top: 8px;
-    left: 16px;
-   color: black;
-    display: flex;
-} */
-
-/* .details h2{
-    position: absolute;
-    top: px;
-    left: 16px;
-   color: black;
-} */
-/* .details h2{
-    po
-    flex: 1;
-    color: black;
-    display: flex;
-} */
-
+.bottom-left p{
+    padding: 40px;
+    font-size: 17px;
+}
 .more{
-    padding: 10px 10px 10px 10px;
-    bottom: 8px;
-    left: 16px;
-    float: inline-end;
+    padding: 20px;
+    bottom: 5px;
+    left: 50px;
+    border: none;
+    flex: 1;
     /* flex: 1 ;
     justify-content: center;
     float: inline-end; */
@@ -132,10 +110,12 @@ color: black;
 #more{
     background-color:#ed661f;
     color: #fafafa;
-    padding: 5px 7px 5px 7px ;
+    padding: 20px;
     border-radius: 5x;
-    bottom: 0px;
-    left: 0px;
+    bottom: 10px;
+    left: 50px;
+    border: none;
+    flex: 1;
 }
 .top-right{
     width: 50%;
@@ -158,11 +138,11 @@ color: black;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    right: -52px;
-    top: -50px;
+    /* right: -52px; */
+    top: -100px;
 }
 .imagecontainer .customers .data{
-    height: 40px;
+    /* height: 40px; */
     margin: 5px;
     text-align: center;
 }
@@ -171,137 +151,163 @@ color: black;
     font-size: 20px;
 }
 
-.existence {
-    margin: 50px 50px;
+.existence{
     display: flex;
+
 }
-.img3{
+.existence .text{
     flex: 1;
-    max-width:30%;
-    max-height: 30%;
-   
-}
-
-.underline {
-    width: 50px;
-    height: 2px;
-    background-color: #ed661f;
-
+    bottom: 30px;
 }
 .existence h2{
-    flex: 1;
+    padding: 20px;
+    font-size: 38px;
 }
-
 .existence p{
-    flex: 1;
-    display: flex;
+    padding: 20px;
+    font-size: 20px;
 }
-
+img{
+    flex: 2;
+    width: 80%;
+    float: right;
+}
 .products{
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.mostpopular{
+.popular{
+    flex: 1;
+    width: 100%;
+}
+.popular .varieties{
     display: flex;
     justify-content: space-between;
-    margin: 20px 20px;
+    margin: 20px 50px;
 }
-
-.mostpopular .pop{
+.popular .varieties .carrots{
 margin: 15px;
 padding: 5px;
-grid-template-rows: auto;
-grid-gap: 30px;
-align-items: center;
+display: grid;
 }
-
+.seeall{
+    display: block;
+    justify-content: flex-end;
+    flex: right;
+    right: 0;
+    
+}
+.feedback{
+    flex: 1;
     /* display: flex; */
 }
+.feedback .customers{
+display: flex;
+justify-content: space-between;
+}
+.checked{
+    color: #ed661f;
+}
+
+.learnmore{
+    justify-content: flex-end;
     flex: right;
+    right: 0;
+}
+.underline{
+    font-weight: bolder;
+    font-weight: 600;
+}
 
 .contacts{
     background-color: black;
-    height: 100px;
+    /* height: 100px; */
     align-items: center;
     justify-content: center;
-    padding: 50px 100px 50px 100px;
+    padding-bottom: 120px ;
     display: flex;
-}
-
-.bar{
-/* width: 80%;
-padding: 10px 10px;
-font-size: 17px;
-text-decoration: none;
-display: flex; */
 }
 
 .bar h3{
    flex: 1;
    color: #fafafa;
+   padding: 20px;
 }
 
 .bar p{
     flex:1;
     color: #fafafa;
+    padding: 20px;
 }
 
-.bar.btn{
+.contacts .btn {
     flex: 1;
     justify-content: center;
+    background-color: #ed661f;
 }
 
-.bar .btn a{
-    background-color: #ed661f;
+.contacts .btn a{
+    /* background-color: #ed661f; */
  color: black;
  text-align: center;
  justify-content:center ;
- padding: 14px 16px;
+ padding: 20px;
  font-size: 17px;
  text-decoration: none;
  display: flex;
 }
+
 #email{
-    background-color: #fafafa;
+    background-color: #ed661f;
     color: black;
-    padding: 5px 7px 5px 7px;
-    border-radius: 5x;
+    border: none;
 }
 #subscribe{
-    color: #fafafa;
-    padding:5px 7px 5px 7px ;
-    border-radius: 5x;
     background-color: #ed661f;
+    border: none;
 }
 
-
-.footer{
+.footer {
     background-color: black;
-    height:120px;
-    align-items: center;
-    justify-content: space-around;
-    padding: 30px 30px 30px 30px;
-    display: flex;
-}
-.footer .details{
-    background-color: black;
-    height: 50px;
+    /* height: 50px; */
     align-items: center;
     justify-content: space-between;
-    padding: 10px 10px 10px 10px;
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    bottom: 100px;
+}
+
+.footer .details{
+    background-color: black;
+    /* height:120px; */
+    /* align-items: left; */
+    justify-content: space-between;
+    /* flex: left; */
+    /* left: 0; */
+    padding: 30px;
     display: flex;
 }
-.footer .details .co{
+
+.footer .company .co{
     flex: 1;
     display: flex;
     justify-content: space-between;
+    padding: 50px;
 }
+
 .foter ul li a{
     color: #fafafa;
+    text-decoration: none;
 }
 .footer ul li{
     color: #fafafa;
     margin-bottom: 20px;
+    text-decoration: none;
+}
+.footer .company{
+    display: flex;
+    justify-content: space-between;
 }
